@@ -1,0 +1,75 @@
+!!!
+%html
+  %head
+    %title Microblading
+    = csrf_meta_tags
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+  %body
+    %nav.navbar.navbar-default.navbar-fixed-top.navigation
+      .container
+        .navbar-header
+          %a.navbar-brand.navigation-title{href: "/"}
+            Microblading
+        .collapse.navbar-collapse
+          %ul.nav.navbar-nav.navbar-right.navigation-links
+            %li{role: 'presentation'}
+              %a{href: "#"}
+                About
+            %li{role: 'presentation'}
+              %a{href: "#"}
+                Microblading
+            %li{role: 'presentation'}
+              %a{href: "#"}
+                Portoflio
+            %li{role: 'presentation'}
+              %a{href: "#"}
+                Contact
+            %li{role: 'presentation'}
+              %a.book-now{href: "#"}
+                Book Appointment
+    = yield
+    %footer.footbar
+      .container-fluid
+        .row
+          .col-md-3.horizontal-center
+            %h3
+              Brand Name
+            .row
+              %a{href: '#'}
+                About
+            .row
+              %a{href: '#'}
+                Portfolio
+            .row
+              %a{href: '#'}
+                Blog
+            .row
+              %a{href: '#'}
+                Contact
+            .row
+              %a{href: '#'}
+                Careers
+          .col-md-3.horizontal-center
+            %h3
+              Our Service
+            .row
+              %a{href: '#'}
+                Manual Microblading
+            .row
+              %a{href: '#'}
+                Prices
+            .row
+              %a{href: '#'}
+                FAQ
+          .col-md-3.horizontal-center
+            %h3
+              Studio
+            %p
+              500 Terry Francois Street
+            %p
+              San Francisco, CA 94158
+            %p
+              info@mysite.com
+          .col-md-3.horizontal-center
+            FUCK YOU

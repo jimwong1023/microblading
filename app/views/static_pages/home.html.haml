@@ -1,1 +1,210 @@
-Yo
+.jumbotron.jumbo-parallax.vertical-center.horizontal-center
+  .container
+    .jumbo-text
+      %h1
+        MICROBLADING
+      %h3
+        Brow Microblading Experts.
+.container
+  .row.vertical-center.horizontal-center
+    .content.what-we-do
+      %h1
+        What we do
+      %p
+        I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you. I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you. I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.
+      .read-more
+        %a.main-btn{href: "#"}
+          Read More
+.container-fluid.black-bottom-border
+.container
+  .row
+    .content.before-and-after
+      .row.horizontal-center
+        %h1
+          BEFORE AND AFTER
+      .row
+        .col-md-4
+          .ba-slider
+            %img{src: image_path('after.png'), alt: ''}
+            .resize
+              %img{src: image_path('before.png'), alt: ''}
+            .span.handle
+        .col-md-4
+          .ba-slider
+            %img{src: image_path('after.png'), alt: ''}
+            .resize
+              %img{src: image_path('before.png'), alt: ''}
+            .span.handle
+        .col-md-4
+          .ba-slider
+            %img{src: image_path('after.png'), alt: ''}
+            .resize
+              %img{src: image_path('before.png'), alt: ''}
+            .span.handle
+      .row.horizontal-center.view-portfolio
+        %a.main-btn{href: "#"}
+          View Portfolio
+.container-fluid
+  .row
+    .primary-bg-color
+      #homepage-carousel.carousel.slide{data: {ride: 'carousel', interval: 'false'}}
+        %ol.carousel-indicators
+          %li.active{data: {target: "#homepage-carousel", slide: {to: "0"}}}
+          %li{data: {target: "#homepage-carousel", slide: {to: "1"}}}
+          %li{data: {target: "#homepage-carousel", slide: {to: "2"}}}
+          %li{data: {target: "#homepage-carousel", slide: {to: "3"}}}
+          %li{data: {target: "#homepage-carousel", slide: {to: "4"}}}
+        .carousel-inner{role: 'listbox'}
+          .item.active
+            .row
+              .col-xs-6.col-md-6
+                %div
+                  %img.homepage-carousel-img{src: image_path('homepage-carousel1.jpg')}
+              .col-xs-6.col-md-6
+                .vertical-center
+                  .content.carousel-content
+                    %h2
+                      The Process
+                    %h1
+                      1. CONSULTATION
+                    %p
+                      Meet with the artist to discuss your makeup routine, lifestyle, and discuss desired brow style. Clients are welcome to wear brow makeup and bring photo inspirations to the consultation so the artist can better understand your preferred look. 
+
+          .item
+            .row
+              .col-xs-6.col-md-6
+                %div
+                  %img.homepage-carousel-img{src: image_path('homepage-carousel1.jpg')}
+              .col-xs-6.col-md-6
+                .vertical-center
+                  .content.carousel-content
+                    %h2
+                      The Process
+                    %h1
+                      2. PREP
+                    %p
+                      Once the desired brow look is determined, we'll sketch your new eyebrows directly on your face using a brow pencil. You'll be asked you to make different facial expressions to ensure your brow shape and pigment color matches the symmetry of your face.
+          .item
+            .row
+              .col-xs-6.col-md-6
+                %div
+                  %img.homepage-carousel-img{src: image_path('homepage-carousel1.jpg')}
+              .col-xs-6.col-md-6
+                .vertical-center
+                  .content.carousel-content
+                    %h2
+                      The Process
+                    %h1
+                      3. MICROBLADING
+                    %p
+                      Although pain is described to be minimal to none, we apply a topical anesthetic to ensure you feel as little discomfort as possible. Once numbed, drawn in brows are wiped away, leaving only the outlined shape. We begin microblading, meticulously hand drawing each hair stroke, matching the color and coarseness of your natural hair.
+          .item
+            .row
+              .col-xs-6.col-md-6
+                %div
+                  %img.homepage-carousel-img{src: image_path('homepage-carousel1.jpg')}
+              .col-xs-6.col-md-6
+                .vertical-center
+                  .content.carousel-content
+                    %h2
+                      The Process
+                    %h1
+                      4. REVEAL + HEAL
+                    %p
+                      After microblading is completed, the excess ink is wiped away to reveal your new brows. Post-care ointment should be applied the next 5-7 days to minimize scabbing. It takes approximately 7-14 days for the brows to heal over, and about 1 month for the color to fully set in.
+          .item
+            .row
+              .col-xs-6.col-md-6
+                %div
+                  %img.homepage-carousel-img{src: image_path('homepage-carousel1.jpg')}
+              .col-xs-6.col-md-6
+                .vertical-center
+                  .content.carousel-content
+                    %h2
+                      The Process
+                    %h1
+                      5. FOLLOW UP
+                    %p
+                      A follow up appointment is scheduled 4 - 6 weeks out to perform touchup as needed. Each individuals's skin receives the pigment differently and the artist can take this opportunity to reapply or adjust pigments to match perfectly. 
+        %a.left.carousel-control{href: '#homepage-carousel', role: 'button', data: {slide: "prev"}}
+          %span.glyphicon.glyphicon-chevron-left{aria: {hidden: true}}
+          %span.sr-only
+            Previous
+        %a.right.carousel-control{href: '#homepage-carousel', role: 'button', data: {slide: "next"}}
+          %span.glyphicon.glyphicon-chevron-right{aria: {hidden: true}}
+          %span.sr-only
+            Next
+.container
+  .row
+    .content.latest-articles
+      .row.horizontal-center
+        %h1
+          LATEST ARTICLES
+      .row
+        .col-md-4
+          .content
+            %img{src: image_path('dalmation.jpg')}
+            %h4
+              Tatooed brows vs. Microbladed brows
+            %p
+              Jan. 26, 2017
+            .read-more
+              %a.main-btn{href: "#"}
+                Read More
+        .col-md-4
+          .content
+            %img{src: image_path('dalmation.jpg')}
+            %h4
+              Tatooed brows vs. Microbladed brows
+            %p
+              Jan. 26, 2017
+            .read-more
+              %a.main-btn{href: "#"}
+                Read More
+        .col-md-4
+          .content
+            %img{src: image_path('dalmation.jpg')}
+            %h4
+              Tatooed brows vs. Microbladed brows
+            %p
+              Jan. 26, 2017
+            .read-more
+              %a.main-btn{href: "#"}
+                Read More
+.container-fluid.secondary-bg-color.secondary-font-color
+  .row.you-got-questions
+    .row.horizontal-center
+      %h1
+        You got questions, we got answers
+    .row
+      .col-md-4.question-content
+        %h4
+          Is it painful?
+        %p
+          The pain level for the procedure has been described as light scratches to none. If desired, topical anesthetic can be applied to numb the area before and during the procedure.
+      .col-md-4.question-content
+        %h4
+          How long will it last?
+        %p
+          Since pigments are not implanted into the skin as deep as traditional tattoos, the area will naturally fade overtime. Results typically lasts 1-3 years, depending on skin type and habits.
+      .col-md-4.question-content
+        %h4
+          What is the down time?
+        %p
+          No down time is is required after the microblading procedure. The eyebrow area will be slightly red after the procedure and will take 7-14 days for the brows to heal over, and about 1 month for the color to fully set in.
+    .row.horizontal-center
+      %p
+        Need more details?
+      %a.pink-text-color{href: '#'}
+        Head over to our info page
+.container-fluid.primary-bg-color
+  .row.be-the-first
+    .col-md-6
+      .content
+        %img{src: image_path('homepage-carousel1.jpg')}
+    .col-md-6
+      .row.horizontal-center.know-form
+        %h1
+          BE THE FIRST TO KNOW
+        %p
+          Get updates on calls for models, special events, and promotions.

@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'lulo-clean-w01-one-bold';
+  src: font-url('lulo-clean-w01-one-bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  padding-top: 80px;
+  color: #4C4C4B;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.9em;
+}
+
+.main-btn {
+  background-color: white;
+  color: rgba(241, 104, 118, 1) !important;
+  border-color: rgba(241, 104, 118, 1);
+  border-style: solid;
+  border-width: 1px;
+  padding: 15px;
+}
+
+.main-btn:hover {
+  background-color: #00002d;
+  color: white !important;
+  border-style: none;
+}
+
+.primary-bg-color {
+  background-color: rgba(239, 219, 212, 1);
+}
+
+.secondary-bg-color {
+  background-color: #00002d;
+}
+
+.secondary-font-color {
+  color: #e8e8e8;
+}
+
+.pink-text-color {
+  color: rgba(241, 104, 118, 1);
+}

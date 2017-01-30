@@ -1,0 +1,26 @@
+.navigation {
+  background-color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navigation-title {
+  font-family: 'lulo-clean-w01-one-bold';
+  color: black !important;
+}
+
+.navigation-links {
+  li {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+.book-now {
+  background-color: rgba(241, 104, 118, 1);
+  color: white !important;
+}
+
+.book-now:hover {
+  background-color: #323281 !important;
+}
